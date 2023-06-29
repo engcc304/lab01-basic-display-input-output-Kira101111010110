@@ -1,13 +1,13 @@
 #include <stdio.h>
 int main() {
-    char name[50];
-    int  age = 0;
+    char Name[50];
+    int  Age = 0;
     printf("Enter your name:");
-    scanf("%s", name);
+    scanf("%s", Name);
     printf("Enter your age:");
-    scanf("%d", &age);
+    scanf("%d", &Age);
     printf("- - - - - -\n");
-    printf("Hello %s \n",name);//TODO: #14 Say hello to user.
-    printf("Age = %d\n",age );//TODO: #15 display user their age number plus 1.
+    printf("Hello %s \n",Name);//TODO: #14 Say hello to user.
+    printf( "Age = %d\n",Age ) ;//TODO: #15 display user their age number plus 1.
     return 0 ;
 }//end main function
